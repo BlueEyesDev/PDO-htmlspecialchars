@@ -1,5 +1,0 @@
-<?php
-
-require_once("hcs.php");
-$PDO = new PDO("localhost", "root", "root");
-$PDO->setAttribute(PDO::ATTR_STATEMENT_CLASS, ['PDO_htmlspecialchars']);
